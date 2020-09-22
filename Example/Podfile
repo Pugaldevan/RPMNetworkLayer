@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RPMNetworkLayer_Example' do
+  pod 'RPMNetworkLayer', :path => '../'
+
+  target 'RPMNetworkLayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
