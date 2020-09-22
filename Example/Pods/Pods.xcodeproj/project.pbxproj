@@ -11,8 +11,8 @@
 		3AA5BE85FFF89DD82DA7F3C85F8DF41E /* Pods-RPMNetworkLayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB49162C87DDDC2A5DFC58E6119B59B3 /* Pods-RPMNetworkLayer_Example-dummy.m */; };
 		596177603C636E43A1A66AF681966DB7 /* RPMNetworkLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC58D51FA48A07950304F605FAE2C5C5 /* RPMNetworkLayer-dummy.m */; };
 		65B9D38BC0E2DF05DBDC648B317D04CF /* RPMNetworkLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BD6376C0307E26F48CDD74CD5EDE8D /* RPMNetworkLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AC51DD1251A0F700064D4AB /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC51DD0251A0F700064D4AB /* ServiceLayer.swift */; };
-		7AC51DD2251A0F700064D4AB /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC51DD0251A0F700064D4AB /* ServiceLayer.swift */; };
+		7AC51E0E251A547E0064D4AB /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC51E0D251A547E0064D4AB /* ServiceLayer.swift */; };
+		7AC51E0F251A547E0064D4AB /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC51E0D251A547E0064D4AB /* ServiceLayer.swift */; };
 		9BCB884AFDBAC1583F7BA579122A9D0E /* Pods-RPMNetworkLayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A8BA0F5438CBEB22BE85806B432D99 /* Pods-RPMNetworkLayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3CF2FB5765FD5762768CC456B21CDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		B58F03FDDD9C9C47D22B6E3054AF45A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -52,7 +52,7 @@
 		5BDA0FD355CDA17730B2878AD8CF1B9A /* Pods-RPMNetworkLayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPMNetworkLayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		768B1C7B2BB354C1B697120EF749AFAF /* Pods-RPMNetworkLayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPMNetworkLayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		791FDFF7CA70CDEE3C47D558C0F277A6 /* Pods-RPMNetworkLayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPMNetworkLayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7AC51DD0251A0F700064D4AB /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		7AC51E0D251A547E0064D4AB /* ServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceLayer.swift; path = ../RPMNetworkLayer/Classes/Source/ServiceLayer.swift; sourceTree = "<group>"; };
 		88DC5974D1A64E210A6A10A4E29C0254 /* RPMNetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RPMNetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0A942021E69182E27867C18DBA4336 /* Pods-RPMNetworkLayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPMNetworkLayer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8CA6BEC0919264E7281781119EA92043 /* Pods-RPMNetworkLayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPMNetworkLayer_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 		7AC51DCF251A0EE20064D4AB /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				7AC51DD0251A0F700064D4AB /* ServiceLayer.swift */,
+				7AC51E0D251A547E0064D4AB /* ServiceLayer.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -390,7 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AA5BE85FFF89DD82DA7F3C85F8DF41E /* Pods-RPMNetworkLayer_Example-dummy.m in Sources */,
-				7AC51DD1251A0F700064D4AB /* ServiceLayer.swift in Sources */,
+				7AC51E0E251A547E0064D4AB /* ServiceLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				596177603C636E43A1A66AF681966DB7 /* RPMNetworkLayer-dummy.m in Sources */,
-				7AC51DD2251A0F700064D4AB /* ServiceLayer.swift in Sources */,
+				7AC51E0F251A547E0064D4AB /* ServiceLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
