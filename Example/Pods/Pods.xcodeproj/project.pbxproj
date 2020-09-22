@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FC51EE5851313FD48C7EAE540AD948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3AA5BE85FFF89DD82DA7F3C85F8DF41E /* Pods-RPMNetworkLayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB49162C87DDDC2A5DFC58E6119B59B3 /* Pods-RPMNetworkLayer_Example-dummy.m */; };
+		596177603C636E43A1A66AF681966DB7 /* RPMNetworkLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC58D51FA48A07950304F605FAE2C5C5 /* RPMNetworkLayer-dummy.m */; };
+		65B9D38BC0E2DF05DBDC648B317D04CF /* RPMNetworkLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BD6376C0307E26F48CDD74CD5EDE8D /* RPMNetworkLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BCB884AFDBAC1583F7BA579122A9D0E /* Pods-RPMNetworkLayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A8BA0F5438CBEB22BE85806B432D99 /* Pods-RPMNetworkLayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CF2FB5765FD5762768CC456B21CDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B58F03FDDD9C9C47D22B6E3054AF45A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B86E21B81A0308554E042BF9A206F511 /* Pods-RPMNetworkLayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6BEC0919264E7281781119EA92043 /* Pods-RPMNetworkLayer_Tests-dummy.m */; };
+		B9BCD6489E95164A78EA3A684A7EC243 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F57F38E5A5BFB8B49A244AC5433F13 /* ReplaceMe.swift */; };
+		D132F99499FD6B3390F125A179221176 /* Pods-RPMNetworkLayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3CE3CC84B8CB80A3468C79756AB943 /* Pods-RPMNetworkLayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1451AA92427D4E891ED0130AD887D96B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AEA239FBDA7F0CAABC6652145EE8A33;
+			remoteInfo = "Pods-RPMNetworkLayer_Example";
+		};
+		51196E758EEFFFF74FC899DC751F0348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 903197F08A7EDB6CEAB852615F705CA2;
+			remoteInfo = RPMNetworkLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AA51EDF258B3601E19DADEB77F8F4C /* Pods-RPMNetworkLayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RPMNetworkLayer_Tests.modulemap"; sourceTree = "<group>"; };
+		04F57F38E5A5BFB8B49A244AC5433F13 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RPMNetworkLayer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		105EE115E3D96D689CE95E417203F9F9 /* Pods-RPMNetworkLayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPMNetworkLayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		25BD6376C0307E26F48CDD74CD5EDE8D /* RPMNetworkLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPMNetworkLayer-umbrella.h"; sourceTree = "<group>"; };
+		2757D4306F1DA848BF8B6BFFDBF743E0 /* Pods-RPMNetworkLayer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPMNetworkLayer_Tests-Info.plist"; sourceTree = "<group>"; };
+		2C3CE3CC84B8CB80A3468C79756AB943 /* Pods-RPMNetworkLayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPMNetworkLayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3376AE853BED6A2882CBDA2A5B63673E /* RPMNetworkLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RPMNetworkLayer.modulemap; sourceTree = "<group>"; };
+		400FD5642596C1F1BF01C8A90370C64C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		41F07019973BD0BB6A31D3DDF79247B5 /* Pods-RPMNetworkLayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPMNetworkLayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		52777D4AEC249D29A4E36684D02F11DD /* Pods-RPMNetworkLayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPMNetworkLayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		57BF83CFBDC018EBA6B90D4C83EC6291 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5B45BBDE46E98FB95C2EFF47D9FD3020 /* RPMNetworkLayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RPMNetworkLayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5BDA0FD355CDA17730B2878AD8CF1B9A /* Pods-RPMNetworkLayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPMNetworkLayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		768B1C7B2BB354C1B697120EF749AFAF /* Pods-RPMNetworkLayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPMNetworkLayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		791FDFF7CA70CDEE3C47D558C0F277A6 /* Pods-RPMNetworkLayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPMNetworkLayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88DC5974D1A64E210A6A10A4E29C0254 /* RPMNetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RPMNetworkLayer.framework; path = RPMNetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0A942021E69182E27867C18DBA4336 /* Pods-RPMNetworkLayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPMNetworkLayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8CA6BEC0919264E7281781119EA92043 /* Pods-RPMNetworkLayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPMNetworkLayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		9B193F56D046DC5A87935D8F248846EC /* Pods_RPMNetworkLayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RPMNetworkLayer_Example.framework; path = "Pods-RPMNetworkLayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A48A1D02D6393E394B7CB2A6957722E2 /* Pods-RPMNetworkLayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPMNetworkLayer_Example-Info.plist"; sourceTree = "<group>"; };
+		AB49162C87DDDC2A5DFC58E6119B59B3 /* Pods-RPMNetworkLayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPMNetworkLayer_Example-dummy.m"; sourceTree = "<group>"; };
+		AF10C892C7B1428F0BD44AF765735A77 /* RPMNetworkLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPMNetworkLayer.xcconfig; sourceTree = "<group>"; };
+		C5BFD7F24005262D992D2F57576F2AA9 /* RPMNetworkLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPMNetworkLayer-prefix.pch"; sourceTree = "<group>"; };
+		C63085F83937AA76A4E26A0527C5EF3D /* RPMNetworkLayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RPMNetworkLayer-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC58D51FA48A07950304F605FAE2C5C5 /* RPMNetworkLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RPMNetworkLayer-dummy.m"; sourceTree = "<group>"; };
+		D8D3533A146A0BC46E1D1BE69D79537A /* Pods-RPMNetworkLayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPMNetworkLayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E010D2341A0F959295657FC67238CC38 /* Pods_RPMNetworkLayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RPMNetworkLayer_Tests.framework; path = "Pods-RPMNetworkLayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09F0A7E2AEC41AD4BDF87A544845FB6 /* Pods-RPMNetworkLayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RPMNetworkLayer_Example.modulemap"; sourceTree = "<group>"; };
+		E7A7CD0076581CC41E8A0E45B51480F9 /* Pods-RPMNetworkLayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPMNetworkLayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1A8BA0F5438CBEB22BE85806B432D99 /* Pods-RPMNetworkLayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPMNetworkLayer_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37BE2EBAD3503602C21DFDE9F528CDD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CF2FB5765FD5762768CC456B21CDD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4AD6887FA864CD01C836E75EAAFDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58F03FDDD9C9C47D22B6E3054AF45A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EC243FDC31CE9A7B36C0F2B6FB3F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FC51EE5851313FD48C7EAE540AD948 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1366F88D3DB561A6EABCA8B2EE238ED5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5744401639B1B6B5A9E252BC1C5C592F /* RPMNetworkLayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2DB2A55E5E2B52BFDEE5E0515B355EB1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72C17D7392421774B4BE3F7586C1F82D /* Pods-RPMNetworkLayer_Example */,
+				83A6DD7127C56643B9D2DC79CFC6AB19 /* Pods-RPMNetworkLayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5744401639B1B6B5A9E252BC1C5C592F /* RPMNetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				04F57F38E5A5BFB8B49A244AC5433F13 /* ReplaceMe.swift */,
+				EAE09AB04E1AB33FC3868EB6CB1490B5 /* Pod */,
+				8C39E32A323D04724C98C70142E645AE /* Support Files */,
+			);
+			name = RPMNetworkLayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		72C17D7392421774B4BE3F7586C1F82D /* Pods-RPMNetworkLayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E09F0A7E2AEC41AD4BDF87A544845FB6 /* Pods-RPMNetworkLayer_Example.modulemap */,
+				768B1C7B2BB354C1B697120EF749AFAF /* Pods-RPMNetworkLayer_Example-acknowledgements.markdown */,
+				5BDA0FD355CDA17730B2878AD8CF1B9A /* Pods-RPMNetworkLayer_Example-acknowledgements.plist */,
+				AB49162C87DDDC2A5DFC58E6119B59B3 /* Pods-RPMNetworkLayer_Example-dummy.m */,
+				8B0A942021E69182E27867C18DBA4336 /* Pods-RPMNetworkLayer_Example-frameworks.sh */,
+				A48A1D02D6393E394B7CB2A6957722E2 /* Pods-RPMNetworkLayer_Example-Info.plist */,
+				F1A8BA0F5438CBEB22BE85806B432D99 /* Pods-RPMNetworkLayer_Example-umbrella.h */,
+				105EE115E3D96D689CE95E417203F9F9 /* Pods-RPMNetworkLayer_Example.debug.xcconfig */,
+				D8D3533A146A0BC46E1D1BE69D79537A /* Pods-RPMNetworkLayer_Example.release.xcconfig */,
+			);
+			name = "Pods-RPMNetworkLayer_Example";
+			path = "Target Support Files/Pods-RPMNetworkLayer_Example";
+			sourceTree = "<group>";
+		};
+		83A6DD7127C56643B9D2DC79CFC6AB19 /* Pods-RPMNetworkLayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				01AA51EDF258B3601E19DADEB77F8F4C /* Pods-RPMNetworkLayer_Tests.modulemap */,
+				791FDFF7CA70CDEE3C47D558C0F277A6 /* Pods-RPMNetworkLayer_Tests-acknowledgements.markdown */,
+				E7A7CD0076581CC41E8A0E45B51480F9 /* Pods-RPMNetworkLayer_Tests-acknowledgements.plist */,
+				8CA6BEC0919264E7281781119EA92043 /* Pods-RPMNetworkLayer_Tests-dummy.m */,
+				2757D4306F1DA848BF8B6BFFDBF743E0 /* Pods-RPMNetworkLayer_Tests-Info.plist */,
+				2C3CE3CC84B8CB80A3468C79756AB943 /* Pods-RPMNetworkLayer_Tests-umbrella.h */,
+				52777D4AEC249D29A4E36684D02F11DD /* Pods-RPMNetworkLayer_Tests.debug.xcconfig */,
+				41F07019973BD0BB6A31D3DDF79247B5 /* Pods-RPMNetworkLayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-RPMNetworkLayer_Tests";
+			path = "Target Support Files/Pods-RPMNetworkLayer_Tests";
+			sourceTree = "<group>";
+		};
+		8C39E32A323D04724C98C70142E645AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3376AE853BED6A2882CBDA2A5B63673E /* RPMNetworkLayer.modulemap */,
+				AF10C892C7B1428F0BD44AF765735A77 /* RPMNetworkLayer.xcconfig */,
+				CC58D51FA48A07950304F605FAE2C5C5 /* RPMNetworkLayer-dummy.m */,
+				C63085F83937AA76A4E26A0527C5EF3D /* RPMNetworkLayer-Info.plist */,
+				C5BFD7F24005262D992D2F57576F2AA9 /* RPMNetworkLayer-prefix.pch */,
+				25BD6376C0307E26F48CDD74CD5EDE8D /* RPMNetworkLayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RPMNetworkLayer";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1366F88D3DB561A6EABCA8B2EE238ED5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF886CC8E3D15E0E84DF9B4863953D05 /* Products */,
+				2DB2A55E5E2B52BFDEE5E0515B355EB1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF886CC8E3D15E0E84DF9B4863953D05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B193F56D046DC5A87935D8F248846EC /* Pods_RPMNetworkLayer_Example.framework */,
+				E010D2341A0F959295657FC67238CC38 /* Pods_RPMNetworkLayer_Tests.framework */,
+				88DC5974D1A64E210A6A10A4E29C0254 /* RPMNetworkLayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE09AB04E1AB33FC3868EB6CB1490B5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				57BF83CFBDC018EBA6B90D4C83EC6291 /* LICENSE */,
+				400FD5642596C1F1BF01C8A90370C64C /* README.md */,
+				5B45BBDE46E98FB95C2EFF47D9FD3020 /* RPMNetworkLayer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		330B77AAF9D04FF28A2F831FEEC2EC3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCB884AFDBAC1583F7BA579122A9D0E /* Pods-RPMNetworkLayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF48A5E2641DFE151F222A670F2F67A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B9D38BC0E2DF05DBDC648B317D04CF /* RPMNetworkLayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78A5620F1E73E5FA7789A8BEC65AE64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D132F99499FD6B3390F125A179221176 /* Pods-RPMNetworkLayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7AEA239FBDA7F0CAABC6652145EE8A33 /* Pods-RPMNetworkLayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC12AE58AF44CDAEA8FB614B7F18119 /* Build configuration list for PBXNativeTarget "Pods-RPMNetworkLayer_Example" */;
+			buildPhases = (
+				330B77AAF9D04FF28A2F831FEEC2EC3A /* Headers */,
+				4D756F11B48580B3F4C9CB2312F2CD87 /* Sources */,
+				37BE2EBAD3503602C21DFDE9F528CDD4 /* Frameworks */,
+				176BB95DE6ACC4AA50DD685D8107C5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336D9B4E0C49E7746A5F37FD4CBDB45B /* PBXTargetDependency */,
+			);
+			name = "Pods-RPMNetworkLayer_Example";
+			productName = "Pods-RPMNetworkLayer_Example";
+			productReference = 9B193F56D046DC5A87935D8F248846EC /* Pods_RPMNetworkLayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		903197F08A7EDB6CEAB852615F705CA2 /* RPMNetworkLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80ED1881EA5549C37761963E2CC87A3E /* Build configuration list for PBXNativeTarget "RPMNetworkLayer" */;
+			buildPhases = (
+				AF48A5E2641DFE151F222A670F2F67A0 /* Headers */,
+				B6C06F5D98457ACC8E2491F5B400476E /* Sources */,
+				5D4AD6887FA864CD01C836E75EAAFDE7 /* Frameworks */,
+				D79B63AD0069465678B5377987B9878A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPMNetworkLayer;
+			productName = RPMNetworkLayer;
+			productReference = 88DC5974D1A64E210A6A10A4E29C0254 /* RPMNetworkLayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F00CE31F3C97FF32D90CD42F753B8ADB /* Pods-RPMNetworkLayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8BB02BC038B0D40B1D4FDF826778285 /* Build configuration list for PBXNativeTarget "Pods-RPMNetworkLayer_Tests" */;
+			buildPhases = (
+				F78A5620F1E73E5FA7789A8BEC65AE64 /* Headers */,
+				39625851DFCF666D8F4EAA680C9EDAA8 /* Sources */,
+				D6EC243FDC31CE9A7B36C0F2B6FB3F4A /* Frameworks */,
+				C529FAE7539B22E9AE32FB766DA500AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3789DC3B048F05062E2762FAF2993E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-RPMNetworkLayer_Tests";
+			productName = "Pods-RPMNetworkLayer_Tests";
+			productReference = E010D2341A0F959295657FC67238CC38 /* Pods_RPMNetworkLayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DF886CC8E3D15E0E84DF9B4863953D05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AEA239FBDA7F0CAABC6652145EE8A33 /* Pods-RPMNetworkLayer_Example */,
+				F00CE31F3C97FF32D90CD42F753B8ADB /* Pods-RPMNetworkLayer_Tests */,
+				903197F08A7EDB6CEAB852615F705CA2 /* RPMNetworkLayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176BB95DE6ACC4AA50DD685D8107C5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C529FAE7539B22E9AE32FB766DA500AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79B63AD0069465678B5377987B9878A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39625851DFCF666D8F4EAA680C9EDAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86E21B81A0308554E042BF9A206F511 /* Pods-RPMNetworkLayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D756F11B48580B3F4C9CB2312F2CD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA5BE85FFF89DD82DA7F3C85F8DF41E /* Pods-RPMNetworkLayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C06F5D98457ACC8E2491F5B400476E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BCD6489E95164A78EA3A684A7EC243 /* ReplaceMe.swift in Sources */,
+				596177603C636E43A1A66AF681966DB7 /* RPMNetworkLayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		336D9B4E0C49E7746A5F37FD4CBDB45B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RPMNetworkLayer;
+			target = 903197F08A7EDB6CEAB852615F705CA2 /* RPMNetworkLayer */;
+			targetProxy = 51196E758EEFFFF74FC899DC751F0348 /* PBXContainerItemProxy */;
+		};
+		E3789DC3B048F05062E2762FAF2993E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RPMNetworkLayer_Example";
+			target = 7AEA239FBDA7F0CAABC6652145EE8A33 /* Pods-RPMNetworkLayer_Example */;
+			targetProxy = 1451AA92427D4E891ED0130AD887D96B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E81D556ABE1969151B1FE4490B63946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F07019973BD0BB6A31D3DDF79247B5 /* Pods-RPMNetworkLayer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RPMNetworkLayer_Tests/Pods-RPMNetworkLayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RPMNetworkLayer_Tests/Pods-RPMNetworkLayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		197643B6D4BD71896EDD36E0BF87D62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52777D4AEC249D29A4E36684D02F11DD /* Pods-RPMNetworkLayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RPMNetworkLayer_Tests/Pods-RPMNetworkLayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RPMNetworkLayer_Tests/Pods-RPMNetworkLayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		506118ED8473557D0B2B828C55905F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF10C892C7B1428F0BD44AF765735A77 /* RPMNetworkLayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RPMNetworkLayer/RPMNetworkLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RPMNetworkLayer/RPMNetworkLayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RPMNetworkLayer/RPMNetworkLayer.modulemap";
+				PRODUCT_MODULE_NAME = RPMNetworkLayer;
+				PRODUCT_NAME = RPMNetworkLayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		711AA832D71DC6D3A2D021FD222A74B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF10C892C7B1428F0BD44AF765735A77 /* RPMNetworkLayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RPMNetworkLayer/RPMNetworkLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RPMNetworkLayer/RPMNetworkLayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RPMNetworkLayer/RPMNetworkLayer.modulemap";
+				PRODUCT_MODULE_NAME = RPMNetworkLayer;
+				PRODUCT_NAME = RPMNetworkLayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E01C27F4CB43E008F0C32868C1C2758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D3533A146A0BC46E1D1BE69D79537A /* Pods-RPMNetworkLayer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RPMNetworkLayer_Example/Pods-RPMNetworkLayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RPMNetworkLayer_Example/Pods-RPMNetworkLayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F11A1A4470044E2B2B862B8867BFA0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105EE115E3D96D689CE95E417203F9F9 /* Pods-RPMNetworkLayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RPMNetworkLayer_Example/Pods-RPMNetworkLayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RPMNetworkLayer_Example/Pods-RPMNetworkLayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC12AE58AF44CDAEA8FB614B7F18119 /* Build configuration list for PBXNativeTarget "Pods-RPMNetworkLayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11A1A4470044E2B2B862B8867BFA0F0 /* Debug */,
+				9E01C27F4CB43E008F0C32868C1C2758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80ED1881EA5549C37761963E2CC87A3E /* Build configuration list for PBXNativeTarget "RPMNetworkLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711AA832D71DC6D3A2D021FD222A74B7 /* Debug */,
+				506118ED8473557D0B2B828C55905F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8BB02BC038B0D40B1D4FDF826778285 /* Build configuration list for PBXNativeTarget "Pods-RPMNetworkLayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197643B6D4BD71896EDD36E0BF87D62F /* Debug */,
+				0E81D556ABE1969151B1FE4490B63946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

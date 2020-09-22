@@ -1,0 +1,16 @@
+PODS:
+  - RPMNetworkLayer (0.1.0)
+
+DEPENDENCIES:
+  - RPMNetworkLayer (from `../`)
+
+EXTERNAL SOURCES:
+  RPMNetworkLayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RPMNetworkLayer: c156fbf609765830eb1446ba0fd3372f3b235737
+
+PODFILE CHECKSUM: 9dcc7343df67a17d91bc9355c31593fe8dbb0ec9
+
+COCOAPODS: 1.6.1

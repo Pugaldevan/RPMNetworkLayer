@@ -1,0 +1,6 @@
+framework module RPMNetworkLayer {
+  umbrella header "RPMNetworkLayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

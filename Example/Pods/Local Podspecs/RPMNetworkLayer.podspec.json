@@ -1,0 +1,22 @@
+{
+  "name": "RPMNetworkLayer",
+  "version": "0.1.0",
+  "summary": "A short description of RPMNetworkLayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pugaldevan/RPMNetworkLayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pugaldevan": "pugaldevan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pugaldevan/RPMNetworkLayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RPMNetworkLayer/Classes/**/*"
+}
