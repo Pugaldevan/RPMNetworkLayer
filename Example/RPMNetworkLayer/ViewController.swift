@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import RPMNetworkLayer
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let myStr = Service.serviceMethod()
+        print(myStr)
+
     }
 
     override func didReceiveMemoryWarning() {
